@@ -2,4 +2,51 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+
 }
+
+body{
+    height: 100vh;
+    background-image: url( https://www.newsbtc.com/wp-content/uploads/2019/05/shutterstock_503725969-e1557595875299.jpg);
+
+    background-size: cover;
+    background-position: 50%;
+}
+
+.card{
+    width: 50%;
+    min-width: 18rem;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#contenitore-password{
+    height: 50vh;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: auto;
+    background-color: rgba(255, 255, 255, 0.158);
+}
+
+#logo{
+    margin-top: auto;
+}
+
+#logo.row img{
+    height: 10vw;
+    width: auto;
+}
+.x-invert{
+    transform: rotateY(3.142rad);
+}
+h1 {
+
+    background: -webkit-linear-gradient(#fff09c, #af5dfc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
+  }
